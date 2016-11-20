@@ -24,12 +24,17 @@ html {
   text-decoration: none;
   background-color: #467366;
   color: #fff;
-  border: 3px #2d5a4d;
+  border: 3px solid #2d5a4d;
   border-radius: 8px;
 }
 
 .nav a:hover {
   background-color: #145b1d;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fff;
 }
 
 .banner {
