@@ -34,21 +34,19 @@ html {
   background-size: 64px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fff;
 }
 
 .banner {
   background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 70em auto;
+  background-size: cover;
 }
 
 .banner-content {
-  background-image: url("../images/two-leaves.svg");
-  background-repeat: no-repeat;
-  background-size: 4em auto;
-  padding-top: 14em;
+  background: url("../images/two-leaves.svg") no-repeat .75em 180px/100px;
+  color: #fff;
+  padding-top: 300px;
 }
 
 @media only screen and (min-width: 60em) {
